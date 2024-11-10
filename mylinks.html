@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4 Assignment 1</title>
+    <link rel="stylesheet" href="css/Araujo.css"> <!-- If using external CSS -->
+    <link rel="stylesheet" href="css/modexercise7.css"> <!-- If using external CSS -->
+    
+    <style>
+        body {
+            background-color: lightblue; /* Light blue background */
+            font-family: Arial, sans-serif; /* Arial font */
+            color: darkblue; /* Dark blue text color */
+            padding: 10px; /* 10 pixels of padding */
+            border: 1px dashed darkblue; /* Narrow dashed dark blue border */
+        }
+
+        /* Center and limit width for the Victoria Araujo section */
+        .centered-header {
+            width: 80%;
+            margin: 0 auto; /* Centers the element */
+            text-align: center; /* Center the text inside */
+        }
+
+        /* Class for a headline with a purple dotted underline */
+        .headline {
+            color: purple; /* Purple text */
+            border-bottom: 2px dotted purple; /* Purple dotted line */
+            padding-bottom: 5px; /* Adds a bit of space between text and dotted line */
+        }
+
+        /* h1 element selector with drop-shadow text, 50% transparent background, sans-serif font, 4em size */
+        h1 {
+            font-size: 4em; /* Large font size */
+            font-family: sans-serif; /* Sans-serif font */
+            color: darkblue; /* Text color */
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Drop shadow effect */
+            background-color: rgba(173, 216, 230, 0.5); /* Light blue background with 50% transparency */
+            padding: 10px; /* Adds padding around the text */
+        }
+
+        /* CSS for #section */
+        #section {
+            font-size: small; /* Small font size */
+            color: red; /* Red text color */
+            font-family: Arial, sans-serif; /* Arial font */
+            background-color: white; /* White background */
+            width: 80%; /* 80% width */
+            margin: 0 auto; /* Centering */
+            padding: 10px; /* Padding inside the section */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+        }
+
+        /* Unvisited link */
+        a:link {
+            background-color: lightpurple; /* Light purple background for unvisited links */
+            color: darkblue;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        /* Visited link */
+        a:visited {
+            background-color: darkpurple; /* Dark purple background for visited links */
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        /* Hovered link */
+        a:hover {
+            background-color: purple; /* Purple background when mouse is over the link */
+            color: white;
+            padding: 5px;
+            text-decoration: underline;
+        }    </style>
+</head>
+<body>
+<header>
+    <div class="centered-header">
+        <h1>Victoria Araujo</h1>
+        <figure>
+            <img src="images/victoria.jpg" alt="Victoria Araujo.net" width="350" height="450">
+            <figcaption>Filipina-American, 5'2, born in Nashville</figcaption>
+        </figure>
+    </div>
+</header>
+
+<main>
+    <h2 class="headline">My Favorite Hobbies</h2> <!-- Headline with purple dotted line -->
+    
+    <!-- Unordered list of hyperlinks to hobbies -->
+    <ul>
+        <li><a href="file:///C:/Users/victo/Downloads/webdev/ch.%205/myhobby.html" target="_blank">Dancing</a></li>
+        <li><a href="https://www.wikihow.com/Sing" target="_blank">Singing</a></li>
+        <li><a href="https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces" target="_blank">Art</a></li>
+    </ul>
+    
+    <div id="section">
+        "This is real, this is me, I'm exactly where I'm supposed to be" - Demi Lovato
+    </div>
+
+    <section>
+        <h2 class="headline">Academic Progress</h2>
+        <p>I am currently a Junior:</p>
+        <progress value="75" max="100"></progress> <!-- Progress element for Junior -->
+        <p>Freshman: 5%, Sophomore: 25%, Junior: 75%, Senior: 95%</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Victoria Araujo. All rights reserved.</p> <!-- Copyright information -->
+</footer>
+
+</body>
+</html>
